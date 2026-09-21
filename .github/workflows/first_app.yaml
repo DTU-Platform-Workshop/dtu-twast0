@@ -8,8 +8,8 @@ on:
 
 # Parameters for the workflow
 env:
-  IMAGE: first-app
-  CONTEXT: first-app
+  IMAGE: first_app
+  CONTEXT: first_app
 
 # The actual workflow, runs inside a machine running Ubuntu OS
 jobs:
