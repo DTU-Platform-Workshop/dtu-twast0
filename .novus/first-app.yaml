@@ -1,10 +1,10 @@
 apiVersion: novus.legogroup.io/v1alpha1
 kind: WebApp
 metadata:
-  name: first-app
+  name: first_app
 spec:
   ingress:
-    subdomain: first-app
+    subdomain: first_app
   service:
     image:
       # NOTICE: Update this line to point to your repo
