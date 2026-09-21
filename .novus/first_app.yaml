@@ -8,7 +8,7 @@ spec:
   service:
     image:
       # NOTICE: Update this line to point to your repo
-      repository: ghcr.io/dtu-platform-workshop/dtu-<twast0>/first-app 
+      repository: ghcr.io/dtu-platform-workshop/dtu-twast0/first-app 
       # NOTICE: Update this line to whatever tag you see when you find it 
       # under the "Packages" in your repository 
       tag: 20260921-42ca54d
