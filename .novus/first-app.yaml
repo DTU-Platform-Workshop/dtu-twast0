@@ -1,14 +1,14 @@
 apiVersion: novus.legogroup.io/v1alpha1
 kind: WebApp
 metadata:
-  name: first_app
+  name: first-app
 spec:
   ingress:
-    subdomain: first_app
+    subdomain: first-app
   service:
     image:
       # NOTICE: Update this line to point to your repo
-      repository: ghcr.io/dtu-platform-workshop/dtu-twast0/first_app 
+      repository: ghcr.io/dtu-platform-workshop/dtu-twast0/first-app 
       # NOTICE: Update this line to whatever tag you see when you find it 
       # under the "Packages" in your repository 
       tag: 20260921-42ca54d

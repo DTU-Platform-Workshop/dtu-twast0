@@ -1,15 +1,15 @@
-name: push first_app to GHCR
+name: push first-app to GHCR
 on:
   push:
     # Only run this workflow when the following files change:
     paths:
-      - first_app/**
-      - .github/workflows/first_app.yaml
+      - first-app/**
+      - .github/workflows/first-app.yaml
 
 # Parameters for the workflow
 env:
-  IMAGE: first_app
-  CONTEXT: first_app
+  IMAGE: first-app
+  CONTEXT: first-app
 
 # The actual workflow, runs inside a machine running Ubuntu OS
 jobs:
